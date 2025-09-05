@@ -15,3 +15,6 @@ def contact(request):
 
 def showTasks(resposne):
    return HttpResponse("You are in show-tasks page")
+
+def showSpecificTasks(response,id):
+   return HttpResponse(f"This is specific tasks page {id}")
