@@ -3,5 +3,5 @@ from tasks.views import*
 
 urlpatterns = [
     path("show_tasks/", showTasks),
-    path("show_tasks/<int:id>/", showSpecificTasks)
+    path("show_tasks/<int:id>/", showSpecificTasks) # here addded
 ]
